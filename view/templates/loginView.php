@@ -24,13 +24,12 @@
         </label>
       </div>
     </div>
-    <div class="modal-footer">
-			<button type="button" class="btn btn-default btn-block btn-md btn-logearse" id="boton_login" onclick="goLogin()"><span class="glyphicon glyphicon-off"></span> Iniciar Sesión</button>
-		</div>
+		<button type="button" class="btn btn-default btn-block btn-md btn-logearse" id="boton_login" onclick="goLogin()"><span class="glyphicon glyphicon-off"></span> Iniciar Sesión</button>
+    <div id="_AJAX_LOGIN" style="padding-top:10px;height:50px;"></div>
   </div>
 </div>
 
 <?php include(TEMPLATE_DIR . 'complement/footer.php'); ?>
-<script type="text/javascript" src="includes/js/login.js"></script>
+<script type="text/javascript" src="includes/js/ajax/login.js"></script>
 </body>
 </html>

@@ -20,11 +20,11 @@
 						<?php } ?>
 						<li class="dropdown drop-active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-								<span class="fa fa-user-plus fa-lg"></span> Registrar <i class="fa fa-caret-down" aria-hidden="true"></i>
+								<span class="fa fa-user-plus fa-lg"></span> Gestión <i class="fa fa-caret-down" aria-hidden="true"></i>
 							</a>
 							<ul class="dropdown-menu menu-user">
-								<li><a href="?view=profile"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> Registrar Miembro</a></li>
-								<li><a href="?view=favorites"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> Registrar Usuario</a></li>
+								<li><a href="?view=gestion&tipo=miembro"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> Gestión de Miembros</a></li>
+								<li><a href="?view=gestion&tipo=usuario"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> Gestión de Usuarios</a></li>
 							</ul>
 						</li>
 						<?php if ($_USER[$_SESSION['app_id']]['cargo'] == 'Administrador') { ?>

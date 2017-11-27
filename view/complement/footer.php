@@ -24,6 +24,3 @@
     </div>
   </div>
 </footer>
-
-<script type="text/javascript" src="util/libs/bootstrap/js/jquery.js"></script>
-<script type="text/javascript" src="util/libs/bootstrap/js/bootstrap.min.js"></script>

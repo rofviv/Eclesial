@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="util/libs/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="includes/css/style.css">
 
+  <script type="text/javascript" src="util/libs/bootstrap/js/jquery.js"></script>
+  <script type="text/javascript" src="util/libs/bootstrap/js/bootstrap.min.js"></script>
+
   <title><?php echo APP_TITLE; ?></title>
 
 </head>
